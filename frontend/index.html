@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Free Hoster</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <h1>Hospedagem Gratuita de Sites</h1>
+
+  <section>
+    <h2>Criar site</h2>
+    <form id="createForm">
+      <input type="text" name="siteName" placeholder="nome-do-site" required>
+      <input type="file" name="siteZip" accept=".zip" required>
+      <button type="submit">Enviar ZIP</button>
+    </form>
+    <pre id="createResult"></pre>
+  </section>
+
+  <section>
+    <h2>Domínio customizado</h2>
+    <form id="mapForm">
+      <input type="text" name="siteName" placeholder="nome-do-site" required>
+      <input type="text" name="customDomain" placeholder="seu.dominio.site" required>
+      <button type="submit">Conectar domínio</button>
+    </form>
+    <pre id="mapResult"></pre>
+  </section>
+
+  <script src="/assets/script.js"></script>
+</body>
+</html>
